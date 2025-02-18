@@ -1,0 +1,52 @@
+.hero {
+  background: url("../../assets/HeroSide.png") no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 40vw;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.hero-contents{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-contents h1 {
+  width: 40%;
+  font-size: 40px;
+  margin-bottom: 10px;
+  animation: floatLeft 1s ease-out forwards;
+}
+
+.hero-contents p {
+  font-size: 24px;
+  width: 60%;
+  margin-bottom: 40px;
+  animation: floatRight 1s ease-out forwards;
+}
+
+.emergency-contact {
+    background: #ffb400;
+    color: white;
+    font-size: 20px;
+    padding: 20px 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+    outline: none;
+    /* margin-top: 30px; */
+    /* animation: floatRight 1s ease-out forwards; */
+  }
+
+  
