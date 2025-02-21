@@ -1,16 +1,18 @@
 .hero {
   background: url("../../assets/HeroSide.png") no-repeat;
   background-size: cover;
-  position: relative;
+  /* position: relative; */
   height: 40vw;
-  margin: 100px auto;
+  /* margin: 100px auto; */
   display: flex;
   flex-direction: column;
   color: white;
   align-items: center;
   text-align: center;
   justify-content: center;
-  border-radius: 20px;
+  /* border-radius: 20px; */
+  /* width: 100%; */
+  margin: 100px 60px;
 }
 
 .hero-contents {
@@ -85,14 +87,14 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .hero {
-    width: 720px;
+    width: 680px;
     height: 500px;
   }
 }
 
 @media (min-width: 481px) and (max-width: 600px) {
   .hero {
-    width: 800px;
+    width: 760px;
     height: 500px;
   }
 
@@ -100,7 +102,7 @@
 
 @media (min-width: 601px) and (max-width: 800px) {
   .hero {
-    width: 850px;
+    width: 800px;
     height: 500px;
   }
 }
@@ -114,6 +116,13 @@
 }
 
 @media (min-width: 901px) and (max-width: 1024px) {
+  .hero {
+    width: 960px;
+    height: 500px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1110px) {
   .hero {
     width: 960px;
     height: 500px;
