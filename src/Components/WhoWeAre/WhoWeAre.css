@@ -1,0 +1,39 @@
+.who-we-are-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.who-we-are-top h1 {
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #ffb400;
+  line-height: 4;
+}
+
+
+.who-we-are-content{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.who-we-are-left {
+  width: 60%;
+}
+
+.who-we-are-left p{
+  font-size: 20px;
+  text-align: justify;
+  line-height: 2;
+}
+
+.who-we-are-right{
+  width: 40%;
+}
+
+
+.who-we-are-right img{
+  height: 25rem;
+}

@@ -8,6 +8,7 @@
   top: 0;
   z-index: 1111;
   background-color: white;
+  /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); */
 }
 
 .navbar .logo {
@@ -27,7 +28,7 @@
   background: #ffb400;
   color: white;
   font-size: 16px;
-  padding: 8px 24px;
+  padding: 10px 26px;
   border-radius: 30px;
   cursor: pointer;
   transition: 0.5s;
@@ -50,9 +51,39 @@
   font-weight: 600;
 }
 
-/* media queries */
+/* Hamburger */
+.hamburger {
+  font-size: 30px;
+  cursor: pointer;
+  /* display: none; */
+}
 
-@media (max-width: 1050) {
+.navbar-menu.open {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* media queries */
+@media (min-width: 1281px) {
+  .hamburger{
+    display: none;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .navbar-menu {
+    gap: 30px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar-menu {
+    display: none;
+  }
+}
+
+/* @media (max-width: 1050) {
   .navbar .logo {
     width: 140px;
   }
@@ -103,4 +134,4 @@
   .navbar-menu {
     display: none;
   }
-}
+} */

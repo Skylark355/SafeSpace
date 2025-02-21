@@ -4,13 +4,21 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   const [menu, setMenu] = useState("home");
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="navbar">
       <Link to="/">
         <h1 className="logo">SafeSpace</h1>
       </Link>
 
-      <ul className="navbar-menu">
+      {/* Hamburger Icon */}
+      <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
+        ☰
+      </div>
+
+      {/* Navbar Menu */}
+      <ul className={`navbar-menu ${isOpen ? "open" : ""}`}>
         <Link
           to="/"
           onClick={() => setMenu("home")}
@@ -20,7 +28,7 @@ function Navbar() {
         </Link>
 
         <a
-          href="#Report"
+          href="#report"
           onClick={() => setMenu("report")}
           className={menu === "report" ? "active" : ""}
         >
