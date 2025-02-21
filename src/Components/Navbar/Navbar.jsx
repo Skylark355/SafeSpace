@@ -1,31 +1,33 @@
 import "./Navbar.css";
 import { useState } from "react";
+import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 function Navbar() {
   const [menu, setMenu] = useState("home");
   const [isOpen, setIsOpen] = useState(false);
 
+  const toogleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+
   return (
     <div className="navbar">
-      <Link to="/">
+      {/* <Link to="/"> */}
+      <a href="#">
         <h1 className="logo">SafeSpace</h1>
-      </Link>
+      </a>
+      {/* </Link> */}
 
-      {/* Hamburger Icon */}
-      <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
-        ☰
-      </div>
-
-      {/* Navbar Menu */}
-      <ul className={`navbar-menu ${isOpen ? "open" : ""}`}>
-        <Link
-          to="/"
+      <ul className={isOpen ? "navbar-menu active" : "navbar-menu"}>
+        <a
+          href="#"
           onClick={() => setMenu("home")}
           className={menu === "home" ? "active" : ""}
         >
           Home
-        </Link>
+        </a>
 
         <a
           href="#report"
@@ -54,6 +56,10 @@ function Navbar() {
 
       <div className="navbar-cta">
         <button className="emergency-contact">0200001020</button>
+      </div>
+
+      <div className="hamburger" onClick={toogleMenu}>
+        <FaBars />
       </div>
     </div>
   );
