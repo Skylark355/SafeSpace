@@ -2,6 +2,7 @@ import "./Navbar.css";
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import emergency from "../../assets/emergency.png"
 
 function Navbar() {
   const [menu, setMenu] = useState("home");
@@ -55,6 +56,7 @@ function Navbar() {
       </ul>
 
       <div className="navbar-cta">
+        <img src={emergency} alt="" className="beeping-image"/>
         <button className="emergency-contact">0200001020</button>
       </div>
 

@@ -8,11 +8,12 @@
   top: 0;
   z-index: 1111;
   background-color: white;
-  /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
 .navbar .logo {
   width: 150px;
+  color: #344c3d;
 }
 
 .navbar-menu {
@@ -25,38 +26,63 @@
 }
 
 .navbar-menu a:hover {
-  color: #ffb400;
+  color: #344c3d;
+}
+
+.navbar-cta img {
+  margin-right: 10px;
+  height: 30px;
 }
 
 .navbar-cta button {
-  background: #ffb400;
-  color: white;
-  font-size: 16px;
-  padding: 10px 26px;
-  border-radius: 30px;
+  border-top: 4px solid #344c3d;
+  border-right: 4px solid #344c3d;
+  color: #344c3d;
+  font-size: 18px;
+  padding: 5px 15px;
+  border-radius: 10px;
   cursor: pointer;
   transition: 0.5s;
-  border: none;
-  outline: none;
+  background-color: white;
 }
 
 .navbar .active {
   padding-bottom: 2px;
-  /* border-bottom: 2px solid #ffb400; */
+  border-bottom: 2px solid #344c3d;
   font-weight: 500;
 }
 
 .navbar a.active {
-  color: #ffb400;
+  color: #344c3d;
 }
 
 .emergency-contact {
-  font-weight: 600;
+  font-weight: 700;
+}
+
+.beeping-image {
+  animation: pulse 1s infinite ease-in-out;
 }
 
 .hamburger {
   font-size: 1.7rem;
   cursor: pointer;
+}
+
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 /* media queries */
@@ -149,11 +175,9 @@
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  
   .hamburger {
     display: none;
   }
-  
 }
 
 /* @media (max-width: 1050) {

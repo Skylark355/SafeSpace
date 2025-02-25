@@ -37,10 +37,10 @@
 }
 
 .emergency-contact {
-  background: #ffb400;
+  background: #344C3D;
   color: white;
   font-size: 20px;
-  padding: 20px 30px;
+  padding: 10px 30px;
   border-radius: 15px;
   cursor: pointer;
   transition: 0.5s;

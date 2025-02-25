@@ -1,19 +1,29 @@
 import "./Resources.css";
+import { resources } from "../../../Constants";
 
 function Resource() {
   return (
     <div className="resources" id="resources">
-      <div className="resources-contents">
+      <div className="resource-contents">
         <div className="resources-top">
-          <h1>resources</h1>
+          <h1>Resources</h1>
           <p>
-            Explore a range of essential resources designed to support and
-            empower you.
+            Gender Studies and Human Rights Documentation Centre UN Women -
+            Ending Violence Against Women Resources
           </p>
         </div>
 
-        <div className="resorces-cards">
-          <div className="resources-card"></div>
+        <div className="resources-content">
+          {resources.map((resources, id) => {
+            return(
+              <div key={id} className="resource-cards">
+                <div className="resource-card">
+                  <img src={resources.image} alt="" />
+                  <h2>{resources.title}</h2>
+                </div>
+              </div>
+            )
+          })}
         </div>
       </div>
     </div>

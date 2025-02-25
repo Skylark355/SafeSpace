@@ -9,9 +9,9 @@ function Hero() {
           Join a community that supports and protects your rights to express
           yourself without fear of judgement or discrimination
         </p>
-        <button className="emergency-contact">
+        {/* <button className="emergency-contact">
           <h3>0200001020</h3>
-        </button>
+        </button> */}
       </div>
     </div>
   );

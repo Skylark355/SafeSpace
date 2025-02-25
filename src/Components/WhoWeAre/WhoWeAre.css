@@ -1,3 +1,10 @@
+.who-we-are{
+  margin: 100px 30px;
+  background-color: #344C3D;
+  padding:  30px;
+}
+
+
 .who-we-are-contents {
   display: flex;
   flex-direction: column;
@@ -8,8 +15,10 @@
 .who-we-are-top h1 {
   font-size: 35px;
   text-transform: uppercase;
-  color: #ffb400;
-  line-height: 4;
+  color: #9ed4b3;
+  line-height: 1;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #9ed4b3;
 }
 
 
@@ -20,20 +29,21 @@
 }
 
 .who-we-are-left {
-  width: 60%;
+  width: 50%;
 }
 
 .who-we-are-left p{
   font-size: 20px;
   text-align: justify;
-  line-height: 2;
+  line-height: 2.5;
+  color: #fff;
 }
 
 .who-we-are-right{
-  width: 40%;
+  width: 45%;
 }
 
 
 .who-we-are-right img{
-  height: 25rem;
+  height: 30rem;
 }

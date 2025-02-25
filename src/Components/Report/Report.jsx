@@ -18,18 +18,17 @@ function Report() {
             return (
               <div key={id} className="report-cards">
                 <div className="report-card">
-                  <a href="https://forms.gle/fFbJFATLoGFD3G8G9" target="_blank">
-                    {" "}
-                    <img src={cards.imgae} alt="" />
-                    <h2>{cards.title}</h2>
-                  </a>
+                  <img src={cards.imgae} alt="" />
+                  <h2>{cards.title}</h2>
                 </div>
               </div>
             );
           })}
         </div>
 
-        <button className="report-cta">More</button>
+        <a href="https://forms.gle/fFbJFATLoGFD3G8G9" target="_blank">
+          <button className="report-cta">Report</button>
+        </a>
       </div>
     </div>
   );
