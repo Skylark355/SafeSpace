@@ -116,7 +116,8 @@
   .navbar-menu {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 7rem;
     background-color: white;
     position: absolute;
     width: 320px;
@@ -125,6 +126,7 @@
     z-index: 10;
     transition: all 0.7s ease-in;
     padding: 2rem 3rem;
+    height: 50rem;
   }
 
   .navbar-menu.active {
@@ -186,27 +188,20 @@
   }
 }
 
-
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
   .hamburger {
     display: none;
   }
-  
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
   .hamburger {
     display: none;
   }
-  
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  
   .hamburger {
     display: none;
   }
-  
 }

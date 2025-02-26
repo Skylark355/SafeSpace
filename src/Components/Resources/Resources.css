@@ -60,6 +60,11 @@
     width: 72rem;
   }
 
+  .resources-top p {
+    font-size: 2rem;
+    width: 100%;
+  }
+
   .resources-content {
     display: flex;
     flex-direction: column;
