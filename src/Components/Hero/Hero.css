@@ -1,7 +1,7 @@
 .hero {
   background: url("../../assets/HeroSide.png") no-repeat;
   background-size: cover;
-  height: 40vw;
+  height: 35rem;
   display: flex;
   flex-direction: column;
   color: white;
@@ -33,7 +33,7 @@
 }
 
 .emergency-contact {
-  background: #344C3D;
+  background: #344c3d;
   color: white;
   font-size: 20px;
   padding: 10px 30px;
@@ -83,44 +83,39 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .hero {
-    width: 680px;
-    height: 500px;
+    margin-top: 10rem;
+    width: 72rem;
   }
 }
 
-@media (min-width: 481px) and (max-width: 600px) {
+@media (min-width: 481px) and (max-width: 767px) {
   .hero {
-    width: 760px;
-    height: 500px;
-  }
-
-}
-
-@media (min-width: 601px) and (max-width: 800px) {
-  .hero {
-    width: 800px;
-    height: 500px;
+    margin-top: 10rem;
+    width: 72rem;
   }
 }
 
-
-@media (min-width: 801px) and (max-width: 900px) {
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .hero {
-    width: 910px;
-    height: 500px;
+    margin-top: 10rem;
+    width: 72rem;
   }
 }
 
-@media (min-width: 901px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .hero {
-    width: 960px;
-    height: 500px;
+    margin-top: 10rem;
+    width: 72rem;
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1110px) {
+@media (min-width: 1025px) and (max-width: 1280px) {
   .hero {
-    width: 960px;
-    height: 500px;
+    margin-top: 10rem;
+    width: 74rem;
+  }
+
+  @media (min-width: 1281px) {
+    /* CSS */
   }
 }

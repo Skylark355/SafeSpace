@@ -1,60 +1,101 @@
-.footer{
-    background-color: #344C3D;
-    padding-top: 30px;
-    color: white;
-    height: 18rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.footer {
+  background-color: #344c3d;
+  padding-top: 30px;
+  color: white;
+  height: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.footer p{
-    font-weight: 300;
-    font-size: 18px;
+.footer p {
+  font-weight: 300;
+  font-size: 18px;
 }
 
-.footer-top{
-    display: flex;
-    justify-content: space-around;
+.footer-top {
+  display: flex;
+  justify-content: space-around;
 }
 
-.footer-item1{
-    display: flex;
-    flex-direction: column;
+.footer-item1 {
+  display: flex;
+  flex-direction: column;
 }
 
-.item{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.footer-bottom{
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 30px;
-    /* margin-top: 30px; */
+.footer-bottom {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  /* margin-top: 30px; */
 }
 
-.footer-bottom p{
-    color: #344C3D;
-    font-weight: 400;
+.footer-bottom p {
+  color: #344c3d;
+  font-weight: 400;
 }
 
-.socials{
-    height: 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.socials {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.socials img {
+  height: 30px;
+  margin-left: 20px;
+  /* padding: 2px; */
+  background-color: #344c3d;
+  border-radius: 50%;
+}
 
-.socials img{
-    height: 30px;
-    margin-left: 20px;
-    /* padding: 2px; */
-    background-color: #344C3D;
-    border-radius: 50%;
+@media (min-width: 320px) and (max-width: 480px) {
+  .footer {
+    width: 72rem;
+    height: 30rem;
+  }
+
+  .footer-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    padding: 0 10rem;
+  }
+
+  .footer p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .footer {
+    width: 72rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .footer {
+    width: 72rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer {
+    width: 72rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .footer {
+    width: 76rem;
+  }
 }
