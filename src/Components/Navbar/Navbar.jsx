@@ -2,7 +2,9 @@ import "./Navbar.css";
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import emergency from "../../assets/emergency.png"
+import emergency from "../../assets/emergency.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
   const [menu, setMenu] = useState("home");
@@ -11,7 +13,6 @@ function Navbar() {
   const toogleMenu = () => {
     setIsOpen(!isOpen);
   };
-
 
   return (
     <div className="navbar">
@@ -56,7 +57,8 @@ function Navbar() {
       </ul>
 
       <div className="navbar-cta">
-        <img src={emergency} alt="" className="beeping-image"/>
+        {/* <FontAwesomeIcon icon={faPhone} className="icon" /> */}
+        <img src={emergency} alt="" className="beeping-image" />
         <button className="emergency-contact">0200001020</button>
       </div>
 

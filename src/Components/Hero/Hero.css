@@ -1,6 +1,6 @@
 .hero {
-  background: url("../../assets/HeroSide.png") no-repeat;
   background-size: cover;
+  background-position: center;
   height: 35rem;
   display: flex;
   flex-direction: column;
@@ -9,6 +9,7 @@
   text-align: center;
   justify-content: center;
   margin: 100px 30px;
+  transition: background-image 1s ease-in-out; /* Smooth transition */
 }
 
 .hero-contents {

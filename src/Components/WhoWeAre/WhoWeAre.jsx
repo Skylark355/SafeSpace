@@ -6,11 +6,12 @@ function WhoWeAre() {
     <div className="who-we-are" id="who-we-are">
       <div className="who-we-are-contents">
         <div className="who-we-are-top">
-          <h1>who we are</h1>
+          {/* <h1>who we are</h1> */}
         </div>
 
         <div className="who-we-are-content">
           <div className="who-we-are-left">
+          <h1>who we are</h1>
             <p>
               Safe Space is a secure and confidential platform designed to
               support individuals affected by gender-based violence and

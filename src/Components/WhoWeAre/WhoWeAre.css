@@ -7,17 +7,18 @@
 .who-we-are-contents {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
 }
 
-.who-we-are-top h1 {
+.who-we-are-left h1 {
   font-size: 35px;
   text-transform: uppercase;
   color: white;
   line-height: 1;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   border-bottom: 2px solid white;
+  width: 36%;
 }
 
 .who-we-are-content {
