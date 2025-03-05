@@ -62,6 +62,12 @@
     width: 100%;
   }
 
+  .who-we-are-left h1 {
+    text-align: center;
+    width: 72rem;
+    border-bottom: none;
+  }
+
   .who-we-are-left p {
     text-align: center;
     line-height: 2;

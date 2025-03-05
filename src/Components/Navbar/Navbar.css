@@ -33,26 +33,49 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  position: relative;
 }
 
-.icon {
-  font-size: 1.5rem;
-  color: #344c3d;
+.navbar-image {
+  background-color: #d3d6d4;
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease-in-out;
 }
 
-.navbar-cta img {
-  margin-right: 10px;
-  height: 35px;
+.navbar-image img {
+  height: 1.3rem;
+  transition: filter 0.3s ease-in-out;
 }
 
-.navbar-cta button {
-  color: #344c3d;
-  font-size: 18px;
-  padding: 5px 10px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 1s;
-  background-color: white;
+/* Hover effect */
+.navbar-image:hover {
+  background-color: #344c3d;
+}
+
+.navbar-image:hover img {
+  /* filter: brightness(0) saturate(100%) invert(34%) sepia(86%) saturate(380%) hue-rotate(82deg) brightness(90%) contrast(87%); */
+  filter: brightness(0) invert(1);
+}
+
+.emergency-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.emergency-contact p {
+  font-size: 1rem;
+}
+
+.emergency-contact span {
+  font-weight: 500;
+  font-size: 1.2rem;
 }
 
 .navbar .active {
@@ -65,10 +88,6 @@
   color: #344c3d;
 }
 
-.emergency-contact {
-  font-weight: 700;
-}
-
 .beeping-image {
   animation: pulse 1s infinite ease-in-out;
 }
@@ -76,70 +95,6 @@
 .hamburger {
   font-size: 1.7rem;
   cursor: pointer;
-}
-
-.emergency-contact {
-  position: relative;
-  background: #344c3d;
-  color: white;
-  font-size: 20px;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  border: none;
-  outline: none;
-  z-index: 1;
-}
-
-.emergency-contact:hover{
-  background-color: red;
-}
-
-/* Moving outer border */
-.emergency-contact::before {
-  content: "";
-  position: absolute;
-  top: -4px;
-  left: -4px;
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  border-radius: 10px;
-  border: 3px solid transparent;
-  animation: moveAround 4s linear infinite;
-}
-
-/* Keyframes to move the border */
-@keyframes moveAround {
-  0% {
-    border-top-color: #344c3d;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-  }
-  25% {
-    border-top-color: transparent;
-    border-right-color: #344c3d;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-  }
-  50% {
-    border-top-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: #344c3d;
-    border-left-color: transparent;
-  }
-  75% {
-    border-top-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    border-left-color: #344c3d;
-  }
-  100% {
-    border-color: #344c3d;  
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-  }
 }
 
 @keyframes pulse {
@@ -165,6 +120,13 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .navbar {
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   .hamburger {
     font-size: 3rem;
   }
@@ -199,7 +161,7 @@
   }
 
   .navbar-cta {
-    display: none;
+    margin-left: 15rem;
   }
 
   .navbar .active {

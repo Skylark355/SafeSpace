@@ -1,28 +1,25 @@
 import { useState, useEffect } from "react";
 import "./Hero.css";
-import HeroImage1 from "../../assets/HeroImage1.png"
-import HeroImage2 from "../../assets/HeroImage2.png"
-import HeroImage3 from "../../assets/HeroImage3.png"
-
+import HeroImage1 from "../../assets/HeroImage1.png";
+import HeroImage2 from "../../assets/HeroImage2.png";
+import HeroImage3 from "../../assets/HeroImage3.png";
 
 const heroData = [
   {
     image: HeroImage1,
     title: "Your Voice, Your Space, Speak Freely!",
     description:
-      "Join a community that supports and protects your rights to express yourself without fear of judgement or discrimination",
+      "Looking for someone to talk to? Our counselors and listeners are ready to support you.",
   },
   {
     image: HeroImage2,
-    title: "Empowering Voices Everywhere",
-    description:
-      "Be part of a platform that values your thoughts, encourages discussions, and fosters change.",
+    title: "Welcome Home!",
+    description: "No Judgement, Just Understanding",
   },
   {
     image: HeroImage3,
-    title: "A Safe Haven for Open Discussions",
-    description:
-      "Express yourself confidently in a supportive environment that values free speech.",
+    title: "Empathy First",
+    description: "A Safe Space For All",
   },
 ];
 
@@ -32,7 +29,7 @@ function Hero() {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prevIndex) => (prevIndex + 1) % heroData.length);
-    }, 5000); // Change every 5 seconds
+    }, 10000); // Change every 5 seconds
 
     return () => clearInterval(interval); // Cleanup on unmount
   }, []);

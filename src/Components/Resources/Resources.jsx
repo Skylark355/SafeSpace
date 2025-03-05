@@ -8,8 +8,7 @@ function Resource() {
         <div className="resources-top">
           <h1>Resources</h1>
           <p>
-            Gender Studies and Human Rights Documentation Centre UN Women -
-            Ending Violence Against Women Resources
+          Explore a collection of valuable materials designed  to inform, support and empower you.
           </p>
         </div>
 

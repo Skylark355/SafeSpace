@@ -6,10 +6,9 @@ function Report() {
     <div className="report" id="report">
       <div className="report-contents">
         <div className="report-content">
-          <h1>incident report</h1>
+          <h1>ADDRESSING CONCERNS</h1>
           <p>
-            a community of care, where every heart is valued, Your safe space
-            matters
+            a family of care, where every heart is valued, safe space matter
           </p>
         </div>
 

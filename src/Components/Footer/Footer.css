@@ -26,7 +26,18 @@
 .item {
   display: flex;
   align-items: center;
-  gap: 10px;
+  position: relative;
+  line-height: 2;
+}
+
+.item img {
+  height: 1.2rem;
+  position: absolute;
+  left: -2rem;
+}
+
+.footer-item p {
+  line-height: 1.5;
 }
 
 .footer-bottom {

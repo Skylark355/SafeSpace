@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import emergency from "../../assets/emergency.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import phone1 from "../../assets/phone1.png";
 
 function Navbar() {
   const [menu, setMenu] = useState("home");
@@ -58,8 +59,16 @@ function Navbar() {
 
       <div className="navbar-cta">
         {/* <FontAwesomeIcon icon={faPhone} className="icon" /> */}
-        <img src={emergency} alt="" className="beeping-image" />
-        <button className="emergency-contact">0200001020</button>
+        {/* <img src={emergency} alt="" className="beeping-image" /> */}
+        <div className="navbar-image">
+          <img src={phone1} alt="" />
+        </div>
+
+        <div className="emergency-contact">
+          <p>Emergency Number</p>
+          <span>0200001020</span>
+        </div>
+
       </div>
 
       <div className="hamburger" onClick={toogleMenu}>
