@@ -161,7 +161,15 @@
   }
 
   .navbar-cta {
-    margin-left: 15rem;
+    margin-left: 12rem;
+  }
+
+  .emergency-contact p {
+    font-size: 1.5rem;
+  }
+  
+  .emergency-contact span {
+    font-size: 1.7rem;
   }
 
   .navbar .active {
