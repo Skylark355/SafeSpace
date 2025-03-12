@@ -9,7 +9,7 @@ const heroData = [
     image: HeroImage1,
     title: "Your Voice, Your Space, Speak Freely!",
     description:
-      "Looking for someone to talk to? Our counselors and listeners are ready to support you.",
+      "Report Gender-Based Violence Anonymously & Find Support Now",
   },
   {
     image: HeroImage2,

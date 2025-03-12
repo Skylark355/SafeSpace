@@ -1,0 +1,91 @@
+.survival {
+  margin-top: 4rem;
+  padding: 0 2rem;
+}
+
+.survival-top {
+  background-image: url("../../../assets/support.png");
+  background-size: cover;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.survival-top h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+.survival-bottom {
+  padding: 3rem 4rem;
+}
+
+.survival-bottom h1 {
+  text-align: center;
+  margin-top: 4rem;
+  text-transform: uppercase;
+}
+
+.content {
+  margin-top: 2rem;
+}
+
+.content h2 {
+  font-size: 1.7rem;
+}
+
+.content p {
+  font-size: 1.2rem;
+}
+
+.content:hover h2 {
+  color: #344c3d;
+  width: fit-content;
+  border-bottom: 3px solid #344c3d;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .survival {
+    width: 72rem;
+  }
+
+  .survival h1 {
+    font-size: 4rem;
+  }
+
+  .survival-bottom h1 {
+    font-size: 3rem;
+  }
+
+  .survival-bottom .content h2 {
+    font-size: 2rem;
+  }
+
+  .survival-bottom .content p {
+    font-size: 2rem;
+  }
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .survival {
+    width: 72rem;
+  }
+
+  .survival h1 {
+    font-size: 4rem;
+  }
+
+  .survival-bottom h1 {
+    font-size: 3rem;
+  }
+
+  .survival-bottom .content h2 {
+    font-size: 2rem;
+  }
+
+  .survival-bottom .content p {
+    font-size: 2rem;
+  }
+}

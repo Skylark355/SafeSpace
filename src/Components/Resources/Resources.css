@@ -1,6 +1,8 @@
 .resources {
   margin: 30px 30px;
   padding: 30px;
+  display: flex;
+  align-items: center;
 }
 
 .resources-top {
@@ -21,7 +23,7 @@
 }
 
 .resources-top p {
-  font-size: 20px;
+  font-size: 1.5rem;
   line-height: 2;
   width: 50%;
 }
@@ -29,8 +31,8 @@
 .resources-content {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  gap: 1rem;
+  /* justify-content: space-around; */
+  /* gap: 1rem; */
   margin-top: 1rem;
 }
 
@@ -38,13 +40,16 @@
   height: 20rem;
   border-radius: 10px;
   margin-bottom: 50px;
-  padding: 20px;
+  padding: 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .resource-card img {
-  height: 13rem;
+  height: 14rem;
   margin-bottom: 30px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .resource-card h2 {

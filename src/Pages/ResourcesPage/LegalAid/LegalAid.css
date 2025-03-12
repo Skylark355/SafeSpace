@@ -1,0 +1,80 @@
+.legalAid {
+  margin-top: 4rem;
+  padding: 0 2rem;
+}
+
+.legalAid-top {
+  background-image: url("../../../assets/aid.png");
+  background-size: cover;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.legalAid-top h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+.legalAid-bottom {
+  padding: 3rem 4rem;
+}
+
+.legalAid-bottom h1 {
+  text-align: center;
+  margin-top: 4rem;
+  text-transform: uppercase;
+}
+
+.content {
+  margin-top: 2rem;
+}
+
+.content h2 {
+  font-size: 1.7rem;
+}
+
+.content p {
+  font-size: 1.3rem;
+}
+
+.content:hover h2 {
+  color: #344c3d;
+  width: fit-content;
+  border-bottom: 3px solid #344c3d;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .legalAid {
+    width: 72rem;
+  }
+
+  .legalAid-top h1 {
+    font-size: 4rem;
+  }
+
+  .legalAid-bottom h1 {
+    font-size: 3rem;
+  }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .legalAid {
+    width: 72rem;
+  }
+
+  .legalAid-top h1 {
+    font-size: 4rem;
+  }
+
+  .legalAid-bottom h1 {
+    font-size: 3rem;
+  }
+
+  .legalAid-bottom .content h2{
+    font-size: 3rem;
+  }
+
+}

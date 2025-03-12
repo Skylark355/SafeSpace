@@ -1,5 +1,6 @@
 import "./Resources.css";
 import { resources } from "../../../Constants";
+import { Link } from "react-router-dom";
 
 function Resource() {
   return (
@@ -17,7 +18,9 @@ function Resource() {
             return(
               <div key={id} className="resource-cards">
                 <div className="resource-card">
+                  <Link to = {resources.link}>
                   <img src={resources.image} alt="" />
+                  </Link>
                   <h2>{resources.title}</h2>
                 </div>
               </div>

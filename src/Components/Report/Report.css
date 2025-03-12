@@ -1,6 +1,6 @@
 .report {
   background-color: #344c3d;
-  padding: 30px;
+  padding: 5rem;
   margin: 100px 30px;
   color: #fff;
 }
@@ -59,78 +59,17 @@
 }
 
 .report-cta {
+  background-color: #fff;
   color: #344c3d;
-  font-size: 20px;
+  outline: none;
+  border: none;
+  width: 9rem;
+  height: 3rem;
+  font-size: 1.7rem;
+  border-radius: 0.5rem;
   font-weight: 600;
-  padding: 10px 26px;
-  border-radius: 10px;
   cursor: pointer;
-  transition: 0.5s;
-  outline: none;
-  border: none;
 }
-
-
-.report-cta {
-  position: relative;
-  background: #344c3d;
-  color: white;
-  font-size: 20px;
-  padding: 10px 30px;
-  border-radius: 5px;
-  cursor: pointer;
-  border: none;
-  outline: none;
-  z-index: 1;
-}
-
-/* Moving outer border */
-.report-cta::before {
-  content: "";
-  position: absolute;
-  top: -4px;
-  left: -4px;
-  width: calc(90% + 10px);
-  height: calc(90% + 10px);
-  border-radius: 10px;
-  border: 3px solid transparent;
-  animation: moveAround 4s linear infinite;
-}
-
-/* Keyframes to move the border */
-@keyframes moveAround {
-  0% {
-    border-top-color: white;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-  }
-  25% {
-    border-top-color: transparent;
-    border-right-color: white;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-  }
-  50% {
-    border-top-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: white;
-    border-left-color: transparent;
-  }
-  75% {
-    border-top-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    border-left-color: white;
-  }
-  100% {
-    border-color: #344c3d;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-  }
-}
-
 
 @media (min-width: 320px) and (max-width: 480px) {
   .report {

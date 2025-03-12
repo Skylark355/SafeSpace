@@ -17,20 +17,18 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      {/* <Link to="/"> */}
-      <a href="#">
+      <Link to="/">
         <h1 className="logo">SafeSpace</h1>
-      </a>
-      {/* </Link> */}
+      </Link>
 
       <ul className={isOpen ? "navbar-menu active" : "navbar-menu"}>
-        <a
-          href="#"
+        <Link
+          to="/"
           onClick={() => setMenu("home")}
           className={menu === "home" ? "active" : ""}
         >
           Home
-        </a>
+        </Link>
 
         <a
           href="#report"
@@ -65,10 +63,9 @@ function Navbar() {
         </div>
 
         <div className="emergency-contact">
-          <p>Emergency Number</p>
+          <p>Need help? Call</p>
           <span>0200001020</span>
         </div>
-
       </div>
 
       <div className="hamburger" onClick={toogleMenu}>

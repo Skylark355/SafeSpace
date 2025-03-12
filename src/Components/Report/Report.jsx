@@ -6,10 +6,8 @@ function Report() {
     <div className="report" id="report">
       <div className="report-contents">
         <div className="report-content">
-          <h1>ADDRESSING CONCERNS</h1>
-          <p>
-            a family of care, where every heart is valued, safe space matter
-          </p>
+          <h1>REPORT ABUSE WITH JUST A CLICK</h1>
+          <p>you can report a gender based violence quickly with no fear and judgement</p>
         </div>
 
         <div className="card">
@@ -17,7 +15,7 @@ function Report() {
             return (
               <div key={id} className="report-cards">
                 <div className="report-card">
-                  <img src={cards.imgae} alt="" />
+                  <img src={cards.image} alt="" />
                   <h2>{cards.title}</h2>
                 </div>
               </div>
