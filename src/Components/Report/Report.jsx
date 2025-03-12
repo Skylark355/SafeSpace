@@ -6,8 +6,8 @@ function Report() {
     <div className="report" id="report">
       <div className="report-contents">
         <div className="report-content">
-          <h1>REPORT ABUSE WITH JUST A CLICK</h1>
-          <p>you can report a gender based violence quickly with no fear and judgement</p>
+          <h1>REPORT AN INCIDENT</h1>
+          <p>report a gender based violence incident quickly with no fear and judgement</p>
         </div>
 
         <div className="card">
