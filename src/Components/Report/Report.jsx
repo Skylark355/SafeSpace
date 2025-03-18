@@ -1,3 +1,7 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Autoplay, Pagination } from "swiper/modules";
 import { cards } from "../../../Constants";
 import "./Report.css";
 
@@ -7,23 +11,40 @@ function Report() {
       <div className="report-contents">
         <div className="report-content">
           <h1>REPORT AN INCIDENT</h1>
-          <p>report a gender based violence incident quickly with no fear and judgement</p>
+          <p>
+            Report a gender-based violence incident quickly with no fear and
+            judgment.
+          </p>
         </div>
 
-        <div className="card">
-          {cards.map((cards, id) => {
-            return (
-              <div key={id} className="report-cards">
-                <div className="report-card">
-                  <img src={cards.image} alt="" />
-                  <h2>{cards.title}</h2>
-                </div>
+        <Swiper
+          modules={[Autoplay, Pagination]}
+          spaceBetween={20}
+          slidesPerView={1}
+          // pagination={{ clickable: true }}
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
+          breakpoints={{
+            640: { slidesPerView: 1 },
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+          }}
+          className="card"
+        >
+          {cards.map((card) => (
+            <SwiperSlide key={card.id} className="report-cards">
+              <div className="report-card">
+                <img src={card.image} alt={card.title} />
+                <h2>{card.title}</h2>
               </div>
-            );
-          })}
-        </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
 
-        <a href="https://forms.gle/fFbJFATLoGFD3G8G9" target="_blank">
+        <a
+          href="https://forms.gle/fFbJFATLoGFD3G8G9"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className="report-cta">Report</button>
         </a>
       </div>

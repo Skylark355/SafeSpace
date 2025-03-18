@@ -1,10 +1,7 @@
 .selfDefence {
   display: flex;
   flex-direction: column;
-  padding: 5rem 2rem;
-  /* margin-top: 54rem; */
-  /* align-items: center; */
-  /* justify-content: center; */
+  padding: 0 2rem;
 }
 
 .selfDefence-top {
@@ -14,6 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 5rem;
 }
 
 .selfDefence-top h1 {
@@ -26,31 +24,26 @@
 }
 
 .selfDefence-bottom h1 {
-  text-align: center;
-  margin-top: 4rem;
-  text-transform: uppercase;
-  color: #344c3d;
-  border-bottom: 2px solid #344c3d;
   width: fit-content;
+  text-transform: uppercase;
 }
 
-.content {
+.contentt {
   margin-top: 2rem;
 }
 
-.content p {
+.contentt p {
   font-size: 1.2rem;
+  width: 90%;
 }
 
-.content li {
+.contentt li {
   font-size: 1.3rem;
   margin-bottom: 1rem;
 }
 
 .content h1 {
-  margin-bottom: 2rem;
-  color: #344c3d;
-  border-bottom: 2px solid #344c3d;
+  margin-bottom: 1rem;
   width: fit-content;
 }
 
@@ -60,19 +53,15 @@
   }
 
   .selfDefence h1 {
-    font-size: 4rem;
-  }
-
-  .selfDefence-bottom h1 {
     font-size: 3rem;
   }
 
-  .selfDefence-bottom .content h2 {
-    font-size: 2rem;
+  .selfDefence-bottom h1 {
+    font-size: 2.5rem;
   }
 
-  .selfDefence-bottom .content ul li {
-    font-size: 2rem;
+  .selfDefence-bottom .contentt ul li {
+    font-size: 1.5rem;
   }
 }
 
@@ -82,18 +71,50 @@
   }
 
   .selfDefence h1 {
-    font-size: 4rem;
-  }
-
-  .selfDefence-bottom h1 {
     font-size: 3rem;
   }
 
-  .selfDefence-bottom .content h2 {
-    font-size: 2rem;
+  .selfDefence-bottom h1 {
+    font-size: 2.5rem;
   }
 
-  .selfDefence-bottom .content ul li {
-    font-size: 2rem;
+  .selfDefence-bottom .contentt ul li {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .selfDefence {
+    width: 72rem;
+  }
+
+  .selfDefence h1 {
+    font-size: 3rem;
+  }
+
+  .selfDefence-bottom h1 {
+    font-size: 2.5rem;
+  }
+
+  .selfDefence-bottom .contentt ul li {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .selfDefence {
+    width: 80rem;
+  }
+
+  .selfDefence h1 {
+    font-size: 3rem;
+  }
+
+  .selfDefence-bottom h1 {
+    font-size: 2.5rem;
+  }
+
+  .selfDefence-bottom .contentt ul li {
+    font-size: 1.5rem;
   }
 }

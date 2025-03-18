@@ -1,12 +1,11 @@
 .report {
   background-color: #344c3d;
-  padding: 5rem;
-  margin: 100px 30px;
+  padding: 5rem 1rem;
+  margin: 2rem;
   color: #fff;
 }
 
 .report-contents {
-  /* margin-bottom: 30px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,39 +22,39 @@
   font-size: 35px;
   text-transform: uppercase;
   color: #fff;
-  line-height: 1;
   margin-bottom: 20px;
-  /* border-bottom: 2px solid #fff; */
 }
 .report-content p {
   text-transform: capitalize;
   font-size: 20px;
-  line-height: 80px;
 }
 
 .card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
-  margin-top: 2rem;
+  width: 100%;
+  padding: 20px 0;
 }
 
 .report-card {
-  height: 28rem;
-  border-radius: 15px;
+  height: 30%;
   background-color: #fff;
-  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0.5rem;
+  text-align: center;
 }
 
 .report-card img {
-  height: 25rem;
+  height: 21rem;
+  width: 22rem;
+  /* object-fit: cover; */
 }
 
 .report-card h2 {
-  text-align: center;
-  text-transform: capitalize;
   color: #344c3d;
+  text-transform: capitalize;
+  margin-top: 1rem;
 }
 
 .report-cta {
@@ -69,6 +68,7 @@
   border-radius: 0.5rem;
   font-weight: 600;
   cursor: pointer;
+  margin-top: 1rem;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -76,13 +76,18 @@
     width: 72rem;
   }
 
+  .card {
+    width: 33%;
+    padding: 20px 0;
+  }
   .report-card {
     height: 27rem;
-    align-items: center;
+    width: fit-content;
   }
 
   .report-card img {
-    height: 23rem;
+    height: 21rem;
+    width: 22rem;
     margin-bottom: 0.5rem;
   }
 }
@@ -92,13 +97,18 @@
     width: 72rem;
   }
 
+  .card {
+    width: 33%;
+    padding: 20px 0;
+  }
   .report-card {
     height: 27rem;
-    align-items: center;
+    width: fit-content;
   }
 
   .report-card img {
-    height: 23rem;
+    height: 21rem;
+    width: 22rem;
     margin-bottom: 0.5rem;
   }
 }
@@ -108,20 +118,25 @@
     width: 72rem;
   }
 
+  .card {
+    width: 70%;
+    padding: 20px 0;
+  }
   .report-card {
     height: 27rem;
-    align-items: center;
+    width: fit-content;
   }
 
   .report-card img {
-    height: 23rem;
+    height: 21rem;
+    width: 22rem;
     margin-bottom: 0.5rem;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .report {
-    width: 72rem;
+    width: 71rem;
   }
 
   .report-card {
@@ -137,7 +152,7 @@
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   .report {
-    width: 72rem;
+    width: 75rem;
   }
 
   .report-card {

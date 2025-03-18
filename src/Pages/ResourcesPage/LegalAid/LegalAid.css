@@ -22,24 +22,26 @@
 }
 
 .legalAid-bottom h1 {
-  text-align: center;
-  margin-top: 4rem;
+  /* text-align: center; */
   text-transform: uppercase;
 }
 
-.content {
+.contentt {
   margin-top: 2rem;
+  width: 90%;
 }
 
-.content h2 {
-  font-size: 1.7rem;
+.contentt h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
-.content p {
+.contentt p {
   font-size: 1.3rem;
+  text-align: justify;
 }
 
-.content:hover h2 {
+.contentt:hover h2 {
   color: #344c3d;
   width: fit-content;
   border-bottom: 3px solid #344c3d;
@@ -58,6 +60,17 @@
     font-size: 3rem;
   }
 
+  .contentt {
+    width: 100%;
+  }
+
+  .contentt h2 {
+    font-size: 2rem;
+  }
+
+  .contentt p {
+    font-size: 1.7rem;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -70,11 +83,70 @@
   }
 
   .legalAid-bottom h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
-  .legalAid-bottom .content h2{
-    font-size: 3rem;
+  .contentt {
+    width: 100%;
   }
 
+  .contentt h2 {
+    font-size: 2rem;
+  }
+
+  .contentt p {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .legalAid {
+    width: 72rem;
+  }
+
+  .legalAid-top h1 {
+    font-size: 4rem;
+  }
+
+  .legalAid-bottom h1 {
+    font-size: 2rem;
+  }
+
+  .contentt {
+    width: 100%;
+  }
+
+  .contentt h2 {
+    font-size: 2rem;
+  }
+
+  .contentt p {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .legalAid {
+    width: 80rem;
+  }
+
+  .legalAid-top h1 {
+    font-size: 4rem;
+  }
+
+  .legalAid-bottom h1 {
+    font-size: 2rem;
+  }
+
+  .contentt {
+    width: 100%;
+  }
+
+  .contentt h2 {
+    font-size: 1.5rem;
+  }
+
+  .contentt p {
+    font-size: 1.2rem;
+  }
 }

@@ -8,8 +8,11 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin: 100px 30px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 5rem;
   transition: background-image 1s ease-in-out; /* Smooth transition */
+  /* display: none; */
 }
 
 .hero-contents {
@@ -24,15 +27,15 @@
   font-size: 40px;
   margin-bottom: 10px;
   animation: floatLeft 1s ease-out forwards;
+  width: 70%;
 }
 
 .hero-contents p {
   font-size: 24px;
-  width: 40%;
+  width: 30%;
   margin-bottom: 40px;
   animation: floatRight 1s ease-out forwards;
 }
-
 
 @keyframes floatLeft {
   from {
@@ -85,22 +88,22 @@
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .hero {
-    margin-top: 10rem;
+    margin-top: 5rem;
     width: 72rem;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .hero {
-    margin-top: 10rem;
-    width: 72rem;
+    margin-top: 5rem;
+    width: 71rem;
   }
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   .hero {
-    margin-top: 10rem;
-    width: 74rem;
+    margin-top: 5rem;
+    width: 75rem;
   }
 
   @media (min-width: 1281px) {

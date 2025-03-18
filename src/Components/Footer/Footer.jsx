@@ -19,6 +19,12 @@ function Footer() {
       <div className="footer-top">
         <div className="footer-logo">
           <h1>SafeSpace</h1>
+          <div className="socials">
+          <img src={facebook} alt="" />
+          <img src={instagram} alt="" />
+          <img src={x} alt="" />
+          <img src={linkedin} alt="" />
+        </div>
         </div>
 
         <div className="footer-item">
@@ -73,13 +79,6 @@ function Footer() {
 
       <div className="footer-bottom">
         <p>Copyright {String.fromCharCode(169)} 2025 SafeSpace.</p>
-
-        <div className="socials">
-          <img src={facebook} alt="" />
-          <img src={instagram} alt="" />
-          <img src={x} alt="" />
-          <img src={linkedin} alt="" />
-        </div>
       </div>
     </div>
   );

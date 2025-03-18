@@ -1,0 +1,78 @@
+/* General styles for the carousel container */
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+  
+  .carousel-content {
+    display: flex;
+    overflow: hidden; /* Hide the overflow so only 3 cards are visible */
+    width: 80%; /* Adjust this based on your desired width */
+  }
+  
+  .cards-container {
+    display: flex;
+    animation: slide 9s infinite linear; /* Continuous animation */
+  }
+  
+  .report-card {
+    height: 28rem;
+    width: 20rem;
+    margin-right: 1rem; /* Space between cards */
+    border-radius: 15px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .report-card img {
+    height: 20rem;
+    width: auto;
+    border-radius: 10px;
+  }
+  
+  .report-card h2 {
+    text-align: center;
+    text-transform: capitalize;
+    color: #344c3d;
+    margin-top: 1rem;
+  }
+  
+  .prev-btn,
+  .next-btn {
+    background-color: #344c3d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin: 0 2rem;
+  }
+  
+  .prev-btn:hover,
+  .next-btn:hover {
+    background-color: #2a3d2a;
+  }
+  
+  /* Animation to slide the cards */
+  @keyframes slide {
+    0% {
+      transform: translateX(0); /* Start from the current position */
+    }
+    33% {
+      transform: translateX(-33.33%); /* Move 1 card to the left */
+    }
+    66% {
+      transform: translateX(-66.66%); /* Move 2 cards to the left */
+    }
+    100% {
+      transform: translateX(0); /* Loop back to the start */
+    }
+  }
+  

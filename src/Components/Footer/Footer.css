@@ -44,29 +44,28 @@
   background-color: white;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0 30px;
-  /* margin-top: 30px; */
+  height: 3rem;
 }
 
 .footer-bottom p {
   color: #344c3d;
   font-weight: 400;
+  font-size: 1.3rem;
 }
 
 .socials {
   height: 3rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 0.5rem;
 }
 
 .socials img {
   height: 30px;
-  margin-left: 20px;
-  /* padding: 2px; */
-  background-color: #344c3d;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {

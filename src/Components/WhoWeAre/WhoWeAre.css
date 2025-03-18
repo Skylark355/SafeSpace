@@ -1,5 +1,7 @@
 .who-we-are {
-  margin: 100px 30px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
   background-color: #344c3d;
   padding: 3rem;
 }
@@ -7,7 +9,6 @@
 .who-we-are-contents {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: center;
 }
 
@@ -15,9 +16,7 @@
   font-size: 35px;
   text-transform: uppercase;
   color: white;
-  line-height: 1;
-  margin-bottom: 40px;
-  /* border-bottom: 2px solid white; */
+  margin-bottom: 10px;
   width: 36%;
 }
 
@@ -43,7 +42,7 @@
 }
 
 .who-we-are-right img {
-  height: 28rem;
+  height: 20rem;
 }
 
 /* media queries  */
@@ -64,7 +63,7 @@
 
   .who-we-are-left h1 {
     text-align: center;
-    width: 72rem;
+    width: 100%;
     border-bottom: none;
   }
 
@@ -91,8 +90,18 @@
     width: 72rem;
   }
 
+  .who-we-are-content {
+    flex-direction: column;
+  }
+
   .who-we-are-left {
-    width: 50%;
+    width: 100%;
+  }
+
+  .who-we-are-left h1 {
+    text-align: center;
+    width: 100%;
+    border-bottom: none;
   }
 
   .who-we-are-left p {
@@ -100,25 +109,10 @@
   }
 
   .who-we-are-right {
-    width: 45%;
-  }
-
-  .who-we-are-right img {
-    height: 25rem;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .who-we-are {
-    width: 72rem;
-  }
-
-  .who-we-are-left {
-    width: 50%;
-  }
-
-  .who-we-are-right {
-    width: 45%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .who-we-are-right img {
@@ -128,7 +122,7 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .who-we-are {
-    width: 72rem;
+    width: 71rem;
   }
 
   .who-we-are-left {
@@ -136,21 +130,31 @@
   }
 
   .who-we-are-right {
-    width: 45%;
+    /* width: %; */
+  }
+
+  .who-we-are-left h1 {
+    width: 100%;
+    border-bottom: none;
   }
 
   .who-we-are-right img {
-    height: 25rem;
+    height: 18rem;
   }
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   .who-we-are {
-    width: 72rem;
+    width: 75rem;
   }
 
   .who-we-are-left {
     width: 50%;
+  }
+
+  .who-we-are-left h1 {
+    width: 100%;
+    border-bottom: none;
   }
 
   .who-we-are-right {
@@ -158,6 +162,29 @@
   }
 
   .who-we-are-right img {
-    height: 25rem;
+    height: 21rem;
+  }
+}
+
+@media (min-width: 1281px) {
+  .who-we-are {
+    /* width: 72rem; */
+  }
+
+  .who-we-are-left {
+    width: 50%;
+  }
+
+  .who-we-are-left h1 {
+    width: 100%;
+    border-bottom: none;
+  }
+
+  .who-we-are-right {
+    width: 45%;
+  }
+
+  .who-we-are-right img {
+    height: 21rem;
   }
 }

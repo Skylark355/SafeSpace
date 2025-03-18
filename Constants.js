@@ -1,16 +1,20 @@
 import sexual from "./src/assets/sexual.png";
 import verbal from "./src/assets/verbal.png";
 import stalking from "./src/assets/stalking.png";
+import physicalAbuse from "./src/assets/physicalAbuse.png"
+
 import selfdefence from "./src/assets/selfdefense.png";
 import legalAid from "./src/assets/legalAid.png";
 import survivalSupport from "./src/assets/survivalSupport.png";
-import { href } from "react-router-dom";
+import legalAid2 from "./src/assets/legalAid2.png"
+import selfdefence2 from "./src/assets/selfdefense2.png"
+import survivalSupport2 from "./src/assets/survivalSupport2.png"
 
 export const cards = [
   {
     id: 1,
-    image: verbal,
-    title: "Verbal Harrasment",
+    image: physicalAbuse,
+    title: "Physical Abuse",
   },
 
   {
@@ -24,27 +28,40 @@ export const cards = [
     image: sexual,
     title: "Sexual Harrasment",
   },
+
+  {
+    id: 4,
+    image: sexual,
+    title: "Sexual",
+  },
+
+  {
+    id: 5,
+    image: sexual,
+    title: "Sexual",
+  },
 ];
 
 export const resources = [
-  {
+   {
     id: 1,
     image: legalAid,
+    hoverImage: legalAid2, // Add hover image
     title: "LEGALAID",
     link: "/LegalAid",
   },
-
   {
-    id: 1,
+    id: 2,
     image: survivalSupport,
-    title: "survival support",
+    hoverImage: survivalSupport2, // Add hover image
+    title: "SURVIVAL SUPPORT",
     link: "/SurvivalSupport",
   },
-
   {
     id: 3,
     image: selfdefence,
-    title: "self defense",
+    hoverImage: selfdefence2, // Add hover image
+    title: "SELF DEFENSE",
     link: "/SelfDefence",
   },
 ];
