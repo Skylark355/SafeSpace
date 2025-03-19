@@ -21,3 +21,9 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  html {
+    width: 72rem;
+  }
+}
