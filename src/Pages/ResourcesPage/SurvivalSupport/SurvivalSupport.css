@@ -55,9 +55,9 @@
     font-size: 3rem;
   }
 
-.survival-bottom{
-  margin-bottom: 50rem;
-}
+  .survival-bottom {
+    margin-bottom: 20rem;
+  }
 
   .survival-bottom h1 {
     font-size: 3rem;
@@ -81,6 +81,10 @@
     font-size: 3rem;
   }
 
+  .survival-bottom {
+    margin-bottom: 20rem;
+  }
+
   .survival-bottom h1 {
     font-size: 3rem;
   }
@@ -99,20 +103,24 @@
     width: 72rem;
   }
 
+  .survival-bottom {
+    margin-bottom: 20rem;
+  }
+
   .survival h1 {
     font-size: 3rem;
   }
 
   .survival-bottom h1 {
-    font-size: 3rem;
+    font-size: 2.7rem;
   }
 
   .survival-bottom .contentt h2 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
 
   .survival-bottom .contentt p {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 }
 
@@ -125,20 +133,23 @@
     font-size: 3rem;
   }
 
-
   .contentt {
     width: 100%;
   }
 
+  .survival-bottom {
+    margin-bottom: 20rem;
+  }
+
   .survival-bottom h1 {
-    font-size: 3rem;
+    font-size: 2.7rem;
   }
 
   .survival-bottom .contentt h2 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 
   .survival-bottom .contentt p {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 }

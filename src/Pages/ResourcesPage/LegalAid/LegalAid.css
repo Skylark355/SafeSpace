@@ -68,8 +68,8 @@
     font-size: 4rem;
   }
 
-  .legalAid-bottom{
-    margin-bottom: 50rem;
+  .legalAid-bottom {
+    margin-bottom: 40rem;
   }
 
   .legalAid-bottom h1 {
@@ -92,26 +92,29 @@
 @media (min-width: 481px) and (max-width: 767px) {
   .legalAid {
     width: 72rem;
-    height: 100%;
   }
 
   .legalAid-top h1 {
-    font-size: 4rem;
-  }
-
-  .legalAid-bottom h1 {
-    font-size: 2rem;
-  }
-
-  .contentt {
-    width: 100%;
-  }
-
-  .contentt h2 {
     font-size: 3rem;
   }
 
-  .contentt p {
+  .legalAid-bottom {
+    margin-bottom: 40rem;
+  }
+
+  .legalAid-bottom h1 {
+    font-size: 3rem;
+  }
+
+  .legal-content {
+    width: 100%;
+  }
+
+  .legal-content h2 {
+    font-size: 2.5rem;
+  }
+
+  .legal-content p {
     font-size: 2rem;
   }
 }
@@ -123,19 +126,27 @@
   }
 
   .legalAid-top h1 {
-    font-size: 4rem;
+    font-size: 3rem;
+  }
+
+  .legalAid-bottom {
+    margin-bottom: 40rem;
   }
 
   .legalAid-bottom h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
-  .contentt {
+  .legal-content {
     width: 100%;
   }
 
-  .contentt h2 {
-    font-size: 3rem;
+  .legal-content h2 {
+    font-size: 2.5rem;
+  }
+
+  .legal-content p {
+    font-size: 2rem;
   }
 
   .contentt p {
@@ -150,22 +161,26 @@
   }
 
   .legalAid-top h1 {
-    font-size: 4rem;
-  }
-
-  .legalAid-bottom h1 {
-    font-size: 2rem;
-  }
-
-  .contentt {
-    width: 100%;
-  }
-
-  .contentt h2 {
     font-size: 3rem;
   }
 
-  .contentt p {
+  .legalAid-bottom {
+    margin-bottom: 40rem;
+  }
+
+  .legalAid-bottom h1 {
+    font-size: 3rem;
+  }
+
+  .legal-content {
+    width: 100%;
+  }
+
+  .legal-content h2 {
+    font-size: 2.5rem;
+  }
+
+  .legal-content p {
     font-size: 2rem;
   }
 }
