@@ -1,5 +1,6 @@
 import React from "react";
 import "./LegalAid.css";
+import video from "../../../assets/video.mp4"
 
 const LegalAid = () => {
   return (
@@ -7,6 +8,12 @@ const LegalAid = () => {
       <div className="legalAid-top">
         <h1>LegalAid</h1>
       </div>
+
+    
+      {/* <video width="600" autoPlay loop muted className="video">
+        <source src={video} type="video/mp4"  />
+      </video> */}
+      
 
       <div className="legalAid-bottom">
         <h1>documents on legal aid </h1>

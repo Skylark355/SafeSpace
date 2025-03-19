@@ -4,8 +4,15 @@
 }
 
 .legalAid-top {
-  background-image: url("../../../assets/aid.png");
+  background: linear-gradient(
+      0deg,
+      rgba(41, 41, 41, 0.659),
+      rgba(48, 48, 48, 0.664)
+    ),
+    url("../../../assets/aid.jpg");
+  /* background-image: url("../../../assets/aid.jpg"); */
   background-size: cover;
+  background-position: center;
   height: 30rem;
   display: flex;
   align-items: center;
@@ -15,6 +22,13 @@
 .legalAid-top h1 {
   font-size: 3rem;
   color: white;
+}
+
+.legalAid video {
+  height: 20rem;
+  width: 40%;
+  margin-top: 5rem;
+  margin-left: 30%;
 }
 
 .legalAid-bottom {
@@ -50,6 +64,7 @@
 @media (min-width: 320px) and (max-width: 480px) {
   .legalAid {
     width: 72rem;
+    height: 100%;
   }
 
   .legalAid-top h1 {
@@ -76,6 +91,7 @@
 @media (min-width: 481px) and (max-width: 767px) {
   .legalAid {
     width: 72rem;
+    height: 100%;
   }
 
   .legalAid-top h1 {
@@ -102,6 +118,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .legalAid {
     width: 72rem;
+    height: 100%;
   }
 
   .legalAid-top h1 {
@@ -128,6 +145,7 @@
 @media (min-width: 1025px) and (max-width: 1280px) {
   .legalAid {
     width: 80rem;
+    height: 100%;
   }
 
   .legalAid-top h1 {

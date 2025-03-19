@@ -5,8 +5,9 @@
 }
 
 .selfDefence-top {
-  background-image: url("../../../assets/aid.png");
+  background:linear-gradient(0deg, rgba(41, 41, 41, 0.835), rgba(48, 48, 48, 0.841)), url("../../../assets/selfImage.jpg");
   background-size: cover;
+  background-position: center;
   height: 30rem;
   display: flex;
   align-items: center;
