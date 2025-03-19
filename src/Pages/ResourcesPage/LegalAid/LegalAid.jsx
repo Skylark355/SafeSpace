@@ -17,7 +17,7 @@ const LegalAid = () => {
 
       <div className="legalAid-bottom">
         <h1>documents on legal aid </h1>
-        <div className="contentt">
+        <div className="legal-content">
           <a
             href="https://police.gov.gh/en/index.php/domestic-violence-victims-support-unit-dovvsu/#:~:text=DOMESTIC%20VIOLENCE%20AND%20VICTIMS%20SUPPORT%20UNIT%20(DOVVSU)"
             target="_blank"
@@ -30,7 +30,7 @@ const LegalAid = () => {
           </a>
         </div>
 
-        <div className="contentt">
+        <div className="legal-content">
           <a href="https://www.arkfoundationghana.org/cms/" target="_blank">
             <h2>The Ark Foundation:</h2>{" "}
           </a>
@@ -41,7 +41,7 @@ const LegalAid = () => {
           </p>
         </div>
 
-        <div className="contentt">
+        <div className="legal-content">
           <a
             href="https://netrightghana.org/about-us/our-organisation"
             target="_blank"

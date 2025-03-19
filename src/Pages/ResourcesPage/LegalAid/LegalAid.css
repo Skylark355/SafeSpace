@@ -38,22 +38,22 @@
   text-transform: uppercase;
 }
 
-.contentt {
+.legal-content {
   margin-top: 2rem;
   width: 90%;
 }
 
-.contentt h2 {
+.legal-content h2 {
   font-size: 1.5rem;
   font-weight: 500;
 }
 
-.contentt p {
+.legal-content p {
   font-size: 1.3rem;
   text-align: justify;
 }
 
-.contentt:hover h2 {
+.legal-content:hover h2 {
   color: #344c3d;
   width: fit-content;
   border-bottom: 3px solid #344c3d;
@@ -69,23 +69,23 @@
   }
 
   .legalAid-bottom{
-    margin-bottom: 25rem;
+    margin-bottom: 50rem;
   }
 
   .legalAid-bottom h1 {
     font-size: 3rem;
   }
 
-  .contentt {
+  .legal-content {
     width: 100%;
   }
 
-  .contentt h2 {
-    font-size: 2rem;
+  .legal-content h2 {
+    font-size: 2.5rem;
   }
 
-  .contentt p {
-    font-size: 1.7rem;
+  .legal-content p {
+    font-size: 2rem;
   }
 }
 
@@ -108,11 +108,11 @@
   }
 
   .contentt h2 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .contentt p {
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
 }
 
@@ -135,11 +135,11 @@
   }
 
   .contentt h2 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .contentt p {
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
 }
 
@@ -162,10 +162,10 @@
   }
 
   .contentt h2 {
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
 
   .contentt p {
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
 }

@@ -5,7 +5,12 @@
 }
 
 .selfDefence-top {
-  background:linear-gradient(0deg, rgba(41, 41, 41, 0.835), rgba(48, 48, 48, 0.841)), url("../../../assets/selfImage.jpg");
+  background: linear-gradient(
+      0deg,
+      rgba(41, 41, 41, 0.835),
+      rgba(48, 48, 48, 0.841)
+    ),
+    url("../../../assets/selfImage.jpg");
   background-size: cover;
   background-position: center;
   height: 30rem;
@@ -58,11 +63,11 @@
   }
 
   .selfDefence-bottom h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
   .selfDefence-bottom .contentt ul li {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 
@@ -76,11 +81,11 @@
   }
 
   .selfDefence-bottom h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
   .selfDefence-bottom .contentt ul li {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 
@@ -89,12 +94,12 @@
     width: 72rem;
   }
 
-  .selfDefence h1 {
+  .selfDefence-bottom h1 {
     font-size: 3rem;
   }
 
-  .selfDefence-bottom h1 {
-    font-size: 2.5rem;
+  .selfDefence-bottom .contentt ul li {
+    font-size: 2rem;
   }
 
   .selfDefence-bottom .contentt ul li {
@@ -112,10 +117,10 @@
   }
 
   .selfDefence-bottom h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
   .selfDefence-bottom .contentt ul li {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
