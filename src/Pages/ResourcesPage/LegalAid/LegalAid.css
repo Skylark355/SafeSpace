@@ -10,7 +10,6 @@
       rgba(48, 48, 48, 0.664)
     ),
     url("../../../assets/aid.jpg");
-  /* background-image: url("../../../assets/aid.jpg"); */
   background-size: cover;
   background-position: center;
   height: 30rem;
@@ -24,19 +23,18 @@
   color: white;
 }
 
-.legalAid video {
+/* .legalAid video {
   height: 20rem;
   width: 40%;
   margin-top: 5rem;
   margin-left: 30%;
-}
+} */
 
 .legalAid-bottom {
   padding: 3rem 4rem;
 }
 
 .legalAid-bottom h1 {
-  /* text-align: center; */
   text-transform: uppercase;
 }
 
@@ -63,9 +61,7 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .legalAid {
-    width: 72rem;
-    height: 100%;
-    background-color: red;
+    /* width: 72rem; */
   }
 
   .legalAid-top h1 {
