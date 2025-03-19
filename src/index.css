@@ -25,5 +25,6 @@ a {
 @media (min-width: 320px) and (max-width: 480px) {
   html {
     width: 72rem;
+    height: 100%;
   }
 }
