@@ -1,5 +1,6 @@
 import React from "react";
 import "./SelfDefense.css";
+import Video from "../../../assets/Video.mp4"
 
 const SelfDefense = () => {
   return (
@@ -9,13 +10,15 @@ const SelfDefense = () => {
           <h1>Self Defence</h1>
         </div>
 
-        <div className="selfDefence-bottom">
+      <div className="video">
+        <video width="800" autoPlay loop muted>
+          <source src={Video} type="video/mp4" />
+        </video>
+      </div>
+
+          <div className="selfDefence-bottom">
           <h1>some security tips and advice</h1>
           <div className="contentt">
-            {/* <p>
-              1. Be conscious of your surroundings , especially in unfamiliar or isolated arears.
-            </p> */}
-
             <ul>
               <li>
                 Be conscious of your surroundings, especially in unfamiliar or

@@ -138,17 +138,16 @@
   .navbar-menu {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     gap: 7rem;
     background-color: white;
     position: absolute;
-    width: 320px;
+    width: 500px;
     top: -900px;
     right: 0;
     z-index: 10;
     transition: all 0.7s ease-in;
     padding: 2rem 3rem;
-    height: 50rem;
+    height: 45rem;
   }
 
   .navbar-menu.active {
@@ -157,7 +156,7 @@
   }
 
   .navbar-menu a {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .navbar-cta {
