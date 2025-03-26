@@ -25,6 +25,18 @@
   color: white;
 }
 
+.video{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+video{
+  border-radius: 1rem;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
 .selfDefence-bottom {
   padding: 3rem 4rem;
 }
@@ -60,6 +72,10 @@
 
   .selfDefence h1 {
     font-size: 3rem;
+  }
+
+  .video{
+    margin-top: 10rem;
   }
 
   .selfDefence-bottom h1 {

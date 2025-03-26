@@ -1,21 +1,24 @@
 import React from "react";
 import "./SelfDefense.css";
+import video from "../../../assets/video.mp4"
 
 const SelfDefense = () => {
   return (
     <div>
       <div className="selfDefence">
-        <div className="selfDefence-top">
+        {/* <div className="selfDefence-top">
           <h1>Self Defence</h1>
+        </div> */}
+
+        <div className="video">
+          <video width="800" autoPlay loop muted>
+            <source src={video} type="video/mp4" />
+          </video>
         </div>
 
         <div className="selfDefence-bottom">
           <h1>some security tips and advice</h1>
           <div className="contentt">
-            {/* <p>
-              1. Be conscious of your surroundings , especially in unfamiliar or isolated arears.
-            </p> */}
-
             <ul>
               <li>
                 Be conscious of your surroundings, especially in unfamiliar or
@@ -30,8 +33,8 @@ const SelfDefense = () => {
                 Have a trusted contact on speed dial for urgent situations.
               </li>
               <li>
-                Avoid unfamiliar places at night, if necessary, travel in
-                group or use well-it main roads.
+                Avoid unfamiliar places at night, if necessary, travel in group
+                or use well-it main roads.
               </li>
               <li>
                 Carry a personal safety tool items like a whistle, pepper spray
