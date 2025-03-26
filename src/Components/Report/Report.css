@@ -41,12 +41,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   padding: 1rem 0.5rem;
   text-align: center;
 }
 
-.report-cards {
+.report-cards{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -93,10 +93,6 @@
     width: fit-content;
   }
 
-  .report-card h2 {
-    margin-top: 0;
-  }
-
   .report-card img {
     height: 21rem;
     width: 22rem;
@@ -116,10 +112,6 @@
   .report-card {
     height: 27rem;
     width: fit-content;
-  }
-
-  .report-card h2 {
-    margin-top: 0;
   }
 
   .report-card img {
@@ -143,10 +135,6 @@
     width: fit-content;
   }
 
-  .report-card h2 {
-    margin-top: 0;
-  }
-
   .report-card img {
     height: 21rem;
     width: 22rem;
@@ -164,10 +152,6 @@
     align-items: center;
   }
 
-  .report-card h2 {
-    margin-top: 0;
-  }
-
   .report-card img {
     height: 23rem;
     margin-bottom: 0.5rem;
@@ -182,31 +166,6 @@
   .report-card {
     height: 27rem;
     align-items: center;
-  }
-
-  .report-card h2 {
-    margin-top: 0;
-  }
-
-  .report-card img {
-    height: 23rem;
-    margin-bottom: 0.5rem;
-  }
-}
-
-@media (min-width: 1281px) {
-  .report {
-    width: 75rem;
-  }
-
-  .report-card {
-    height: 27rem;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .report-card h2 {
-    margin-top: 0;
   }
 
   .report-card img {

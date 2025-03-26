@@ -4,7 +4,7 @@
   padding: 0 2rem;
 }
 
-/* .selfDefence-top {
+.selfDefence-top {
   background: linear-gradient(
       0deg,
       rgba(41, 41, 41, 0.835),
@@ -18,22 +18,11 @@
   align-items: center;
   justify-content: center;
   margin-top: 5rem;
-} */
+}
 
 .selfDefence-top h1 {
   font-size: 3rem;
   color: white;
-}
-
-.video {
-  display: flex;
-  justify-content: center;
-  margin-top: 4rem;
-}
-
-video{
-  border-radius: 1rem;
-  box-shadow: 5px 5px 5px 5px rgba(0.3, 0.3, 0.3, 0.3);
 }
 
 .selfDefence-bottom {
