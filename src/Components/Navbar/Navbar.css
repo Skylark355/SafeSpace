@@ -179,7 +179,7 @@
 
 @media (min-width: 481px) and (max-width: 767px) {
   .hamburger {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .navbar .logo {
@@ -189,17 +189,15 @@
   .navbar-menu {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     background-color: white;
     position: absolute;
-    width: 400px;
+    width: 320px;
     top: -900px;
     right: 0;
     z-index: 10;
     transition: all 0.7s ease-in;
     padding: 2rem 3rem;
-    height: 32rem;
-    gap: 5rem;
   }
 
   .navbar-menu.active {
@@ -212,16 +210,7 @@
   }
 
   .navbar-cta {
-    margin-left: 12rem;
-    font-size: 5rem;
-  }
-
-  .navbar-cta span{
-    font-size: 1.5rem;
-  }
-
-  .navbar-cta p{
-    font-size: 1.2rem;
+    display: none;
   }
 
   .navbar .active {
