@@ -64,7 +64,9 @@ function Navbar() {
 
         <div className="emergency-contact">
           <p>Need help? Call</p>
-          <span>0200001020</span>
+          <a href="tel:0200001020">
+            <span>0200001020</span>
+          </a>
         </div>
       </div>
 
