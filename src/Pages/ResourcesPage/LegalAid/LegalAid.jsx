@@ -4,9 +4,9 @@ import video from "../../../assets/video.mp4"
 
 const LegalAid = () => {
   return (
-    <div className="legalAid">
+    <div className="legalAid" id="legalAid">
       <div className="legalAid-top">
-        <h1>LegalAid</h1>
+        <h1>Legal Aid</h1>
       </div>
 
     

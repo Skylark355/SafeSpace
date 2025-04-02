@@ -3,15 +3,10 @@ import facebook from "../../assets/facebook.png";
 import instagram from "../../assets/instagram.png";
 import linkedin from "../../assets/linkedin.png";
 import x from "../../assets/x.png";
-import globe from "../../assets/globe.png"
-import mail from '../../assets/mail.png'
-import phone from "../../assets/phone.png"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faPhone,
-  faGlobe,
-  faEnvelope,
-} from "@fortawesome/free-solid-svg-icons";
+import globe from "../../assets/globe.png";
+import mail from "../../assets/mail.png";
+import phone from "../../assets/phone.png";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -20,26 +15,28 @@ function Footer() {
         <div className="footer-logo">
           <h1>SafeSpace</h1>
           <div className="socials">
-          <img src={facebook} alt="" />
-          <img src={instagram} alt="" />
-          <img src={x} alt="" />
-          <img src={linkedin} alt="" />
-        </div>
+            <img src={facebook} alt="" />
+            <img src={instagram} alt="" />
+            <img src={x} alt="" />
+            <img src={linkedin} alt="" />
+          </div>
         </div>
 
         <div className="footer-item">
           <h3>Links</h3>
 
-          <a href="#">
+          <Link to="/">
             <p>Home</p>
-          </a>
-          <a href="#">
+          </Link>
+
+          <a href="#report">
             <p>Report</p>
           </a>
-          <a href="#">
+
+          <a href="#who-we-are">
             <p>Who we are</p>
           </a>
-          <a href="#">
+          <a href="#resources">
             <p>Resources</p>
           </a>
         </div>
@@ -47,16 +44,17 @@ function Footer() {
         <div className="footer-item">
           <h3>Resources</h3>
 
-          <a href="#">
-            {" "}
+          <Link to="/legalAid">
             <p>Legal Aid</p>
-          </a>
-          <a href="#">
+          </Link>
+
+          <Link to="/survivalSupport">
             <p>Survival Support</p>
-          </a>
-          <a href="#">
+          </Link>
+
+          <Link to="/selfDefence">
             <p>Self Defense</p>
-          </a>
+          </Link>
         </div>
 
         <div className="footer-item1">
