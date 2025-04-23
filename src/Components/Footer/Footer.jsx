@@ -6,6 +6,7 @@ import x from "../../assets/x.png";
 import globe from "../../assets/globe.png";
 import mail from "../../assets/mail.png";
 import phone from "../../assets/phone.png";
+import logoDown from "../../assets/logoDown.png";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -13,12 +14,27 @@ function Footer() {
     <div className="footer">
       <div className="footer-top">
         <div className="footer-logo">
-          <h1>SafeSpace</h1>
+          <Link to="/">
+            <div className="new-footer-logo">
+              <img src={logoDown} alt="" className="footer-logo" />
+              <h1>SafeSpace</h1>
+            </div>
+          </Link>
+
           <div className="socials">
-            <img src={facebook} alt="" />
-            <img src={instagram} alt="" />
-            <img src={x} alt="" />
-            <img src={linkedin} alt="" />
+            <a href="#">
+              <img src={facebook} alt="" />
+            </a>
+            <a href="#">
+              <img src={instagram} alt="" />
+            </a>
+            <a href="#">
+              <img src={x} alt="" />
+            </a>
+            <a href="#">
+              {" "}
+              <img src={linkedin} alt="" />
+            </a>
           </div>
         </div>
 

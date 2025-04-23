@@ -11,9 +11,19 @@
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
-.navbar .logo {
-  width: 150px;
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   color: #344c3d;
+}
+
+.logo-title{
+  font-size: 2rem;
+}
+
+.new-logo{
+  height: 5rem;
 }
 
 .navbar-menu {
