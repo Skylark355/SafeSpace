@@ -5,10 +5,12 @@ import LegalAid from "./Pages/ResourcesPage/LegalAid/LegalAid";
 import { Route, Routes } from "react-router-dom";
 import SelfDefense from "./Pages/ResourcesPage/SelfDefence/SelfDefense";
 import SurvivalSupport from "./Pages/ResourcesPage/SurvivalSupport/SurvivalSupport";
+import ScrollToTop from "./Components/ScrollToTop"
 
 function App() {
   return (
     <div className="app">
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
